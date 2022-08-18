@@ -4,7 +4,7 @@
 @tailwind utilities;
 
 body{
-    @apply bg-backblue-100 bg-[url('images/pattern-background-mobile.svg')] sm:bg-[url('images/pattern-background-desktop.svg')] bg-no-repeat font-redhat;
+    @apply bg-backblue-100 bg-[url('/frontendmentor.io-Order-summary-card-solution/images/pattern-background-mobile.svg')] sm:bg-[url('/frontendmentor.io-Order-summary-card-solution/images/pattern-background-desktop.svg')] bg-no-repeat font-redhat;
     min-height: 100vh;
 }
 .card{
