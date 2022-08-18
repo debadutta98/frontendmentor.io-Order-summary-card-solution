@@ -604,8 +604,8 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.pt-5{
-  padding-top: 1.25rem;
+.pt-24{
+  padding-top: 6rem;
 }
 
 .pl-2{
@@ -637,14 +637,15 @@ video {
 body{
   --tw-bg-opacity: 1;
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
-  background-image: url('https://debadutta98.github.io/frontendmentor.io-Order-summary-card-solution/images/pattern-background-mobile.svg');
+  background-image: url(../images/pattern-background-mobile.svg);
+  background-size: contain;
   background-repeat: no-repeat;
   font-family: Red Hat Display;
 }
 
 @media (min-width: 640px){
   body{
-    background-image: url("https://debadutta98.github.io/frontendmentor.io-Order-summary-card-solution/images/pattern-background-desktop.svg");
+    background-image: url(../images/pattern-background-desktop.svg);
   }
 }
 
@@ -694,7 +695,8 @@ body{
 }
 
 .abtn{
-  padding-bottom: 1.25rem;
+  margin: auto;
+  margin-bottom: 1.25rem;
   text-align: center;
   font-size: 0.75rem;
   line-height: 1rem;
@@ -727,8 +729,8 @@ body{
 p{
   text-align: center;
   font-size: 0.875rem;
-  line-height: 1.25rem;
   font-weight: 300;
+  line-height: 1.5rem;
   --tw-text-opacity: 1;
   color: hsl(224 23% 55% / var(--tw-text-opacity));
 }
