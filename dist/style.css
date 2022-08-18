@@ -637,14 +637,14 @@ video {
 body{
   --tw-bg-opacity: 1;
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
-  background-image: url('../images/pattern-background-mobile.svg');
+  background-image: url('https://debadutta98.github.io/frontendmentor.io-Order-summary-card-solution/images/pattern-background-mobile.svg');
   background-repeat: no-repeat;
   font-family: Red Hat Display;
 }
 
 @media (min-width: 640px){
   body{
-    background-image: url('../images/pattern-background-desktop.svg');
+    background-image: url("https://debadutta98.github.io/frontendmentor.io-Order-summary-card-solution/images/pattern-background-desktop.svg");
   }
 }
 
