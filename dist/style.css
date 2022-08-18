@@ -634,21 +634,16 @@ video {
   font-weight: 300;
 }
 
-.text-backblue-400{
-  --tw-text-opacity: 1;
-  color: hsl(224 23% 55% / var(--tw-text-opacity));
-}
-
 body{
   --tw-bg-opacity: 1;
   background-color: hsl(225 100% 94% / var(--tw-bg-opacity));
-  background-image: url('/images/pattern-background-mobile.svg');
+  background-image: url('/frontendmentor.io-Order-summary-card-solution/images/pattern-background-mobile.svg');
   font-family: Red Hat Display;
 }
 
 @media (min-width: 640px){
   body{
-    background-image: url('/images/pattern-background-desktop.svg');
+    background-image: url('/frontendmentor.io-Order-summary-card-solution/images/pattern-background-desktop.svg');
   }
 }
 
